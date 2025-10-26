@@ -1,0 +1,4 @@
+bastion.host=10.99.0.10
+bastion.port=22
+bastion.user=middleware
+bastion.key=-----BEGIN OPENSSH PRIVATE KEY-----\nPASTE_YOUR_KEY_HERE\n-----END OPENSSH PRIVATE KEY-----\nvpn.config=client\ndev tun\nremote your-bastion.com 1194\n<cert>\nPASTE_CERT_HERE\n</cert>\n<key>\nPASTE_KEY_HERE\n</key>
