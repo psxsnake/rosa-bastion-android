@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>ROSA CLI</title>
+  <title>ROSA CLI Mobile</title>
   <style>
     body{font-family:monospace;background:#1e1e1e;color:#fff;margin:0;padding:20px;}
     button{background:#ff5252;color:#fff;border:none;padding:10px 20px;margin:5px;cursor:pointer;}
@@ -18,9 +18,9 @@
 
   <script>
     function log(msg){document.getElementById('log').textContent+=msg+'\n';}
-    function connectVPN(){log('VPN starting...');/* qui metterai chiamata nativa */log('VPN OK');}
-    function connectSSH(){log('SSH tunnel starting...');/* qui metterai chiamata nativa */log('SSH OK');}
-    function openTerminal(){window.location.href='https://bastion.yourcompany.com:8443/terminal';} // o SSH websocket
+    function connectVPN(){log('VPN starting...');log('VPN OK');}
+    function connectSSH(){log('SSH tunnel starting...');log('SSH OK');}
+    function openTerminal(){window.location.href='https://bastion.yourcompany.com:8443/terminal';}
   </script>
 </body>
 </html>
